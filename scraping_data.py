@@ -16,4 +16,4 @@ scraped = reviews_all(
 )
 
 raw_df = pd.DataFrame(scraped)
-raw_df.to_csv("ulasan_raw.csv", index=False)
+raw_df.to_csv("ulasan_aplikasi.csv", index=False)
